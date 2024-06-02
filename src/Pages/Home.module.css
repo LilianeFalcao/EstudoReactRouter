@@ -1,0 +1,30 @@
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .productsLi {
+    border: 1px solid #3a3939;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    margin: 0 10px;
+    width: 25%;
+  }
+  .headers{
+    background-color: #222;
+    color: #fff;
+    height: 50px;
+  }
+  .details{
+    background-color: #222;
+    color: #efefef;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+  }

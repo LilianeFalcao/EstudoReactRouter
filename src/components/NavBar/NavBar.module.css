@@ -1,0 +1,29 @@
+/* App.css */
+.navB {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 25px;
+}
+
+.navList {
+    display: flex;
+    gap: 25px; /* Espaçamento entre os links */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navItem {
+    /* Adicione estilos específicos para os itens da lista, se necessário */
+}
+
+.links {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
